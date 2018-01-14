@@ -1,5 +1,4 @@
-
-de {
+node {
 
     stage("Pull GIT Repo") {
             checkout scm
