@@ -5,6 +5,8 @@ node {
     }
 
     stage("Build and start test image") {
-            app = docker.build docker_image
+            echo "start test"
+	    makdir test
+            rm -rf test
     }
 }
