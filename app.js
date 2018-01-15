@@ -12,6 +12,8 @@ app.use('todos', {
   }
 });
 
+console.log('abc');
+
 // A function that gets and logs a todo from the service
 async function getTodo(name) {
   // Get the service we registered above
